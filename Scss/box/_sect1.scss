@@ -1,0 +1,94 @@
+.cont1{
+    width: 100%;
+    background: #f5f5f5;
+}
+.cont1list{
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 20px;
+    list-style: none;
+}
+.contactlist{
+    list-style: none;
+    width: 50%;
+    li{
+        p{ 
+            font-size: 16px;
+            line-height: 14px;
+            span{
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+    }
+
+}
+.comentform{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.inpname{
+    width: 250px;
+    height: 40px;
+    margin: 20px 10px;
+    padding: 0 20px;
+}
+.inpemail{
+    width: 250px;
+    height: 40px;
+    margin: 20px 10px;
+    padding: 0 20px;
+}
+.inptitle{
+    width: 520px;
+    height: 40px;
+    margin: 20px 10px;
+    padding: 0 20px;
+}
+.inpcommit{
+    width: 520px;
+    height: 40px;
+    margin: 20px 10px;
+    height: 150px;
+    padding: 0 20px;
+    padding-bottom: 100px;
+    
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 4px;
+    background-color: rgb(16, 202, 227);
+    margin: 20px 10px;
+    transition: all 0.1s ease 0s ;
+}
+.btn:hover{
+    border: 1px solid rgb(16, 202, 227);
+    background: #fff;
+    color: rgb(16, 202, 227);
+}
+.btn:active{
+    outline: 2.5px solid rgb(98, 231, 249);
+}
+
+.sect2{
+    padding: 10px 20px;
+    background: #f5f5f5;
+}
+
+.cont2{
+    width: 100%;
+   
+    iframe{
+        width: 100%;
+        height: 500px;
+    }
+}

@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    max-width: 1300px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.sect1{
+    padding: 30px 200px 30px 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/bacg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cont1{
+    background: #fff;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.head1{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+}
+
+.inp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    border: 1px solid gray;
+    background: #fff;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+.searchbtn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: url(../img/magnifying-glass.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.love{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px
+}
+.shoplinks{
+    padding: 20px 20px;
+    display: flex;
+
+}
+
+
+.secolor{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.colorbtn{
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.btnred{
+    background: url(../img/red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btngreen{
+    background: url(../img/green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btnwhite{
+    background: url(../img/white.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btngrey{
+    background: url(../img/grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btnblue{
+    background: url(../img/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorbtn:hover{
+    border: 2px solid green;
+}
+
+.colorbtn:active{
+    border: 2px solid rgb(0, 26, 255);
+}
+
+.sesize{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizebtn{
+    width: 40px;
+    height: 40px;
+    color: rgb(0, 119, 255);
+    border: 1px solid rgb(0, 119, 255);
+    border-radius: 50%;
+}
+.sizebtn:hover{
+    color: rgb(51, 0, 255);
+    border: 1px solid rgb(47, 0, 255);
+}
+.sizebtn:active{
+    border: 1px solid red;
+    color: red;
+
+}
+.carousel{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+.gooodtitle{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(255, 0, 111);
+    margin: 30px 0;
+}
+
+
+.brandname{
+    width: 250px;
+    font-size: 30px;
+    line-height: 28px;
+    color: rgb(0, 102, 255);
+    margin: 30px 0;
+}
+
+.specs{
+    width: 350px;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 30px 0;
+}
+.buttonshop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 190px;
+}
+.shopbtn{
+    width: 200px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background: red;
+    color: #fff;
+    margin: 0 20px;
+}
+.shopbtn:active{
+    border: 1px solid aqua;
+    background: #fff;
+    color: blue;
+}
+.shopbtn:hover{
+    outline: 2.5px solid rgb(75, 75, 251);
+    border: 1px solid blue;
+}
